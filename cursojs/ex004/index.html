@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: normal 20pt Arial;
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var nome = window.prompt("Qual é o seu nome?");
+      document.writeln(
+        `Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.</br>`
+      );
+      document.writeln(
+        `Seu nome em maiúscula é <strong>${nome.toUpperCase()}.</strong></br>`
+      );
+      document.write(
+        `Seu nome em minúscula é <strong>${nome.toLowerCase()}.</strong></br>`
+      );
+
+      var salario = window.prompt("Qual é o seu salario?");
+      document.write(
+        `Apesar de estar ganhando <strong>${salario} reais </strong></br> você pode ganhar <strong>${
+          salario * 2
+        } reais </strong> se estudar programação.`
+      );
+    </script>
+  </body>
+</html>
