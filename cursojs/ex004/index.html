@@ -9,12 +9,12 @@
         font: normal 20pt Arial;
         color: white;
         background-color: black;
-      }
+      } /* isso é um comentário */
     </style>
   </head>
-  <body>
+  <body> <!-- isso é um comentario em html -->
     <script>
-      var nome = window.prompt("Qual é o seu nome?");
+      var nome = window.prompt("Qual é o seu nome?"); //fazer comentário em javascript
       document.writeln(
         `Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.</br>`
       );
@@ -24,6 +24,7 @@
       document.write(
         `Seu nome em minúscula é <strong>${nome.toLowerCase()}.</strong></br>`
       );
+      document.write(`Você esta fazendo coisas novas com o JavaScript, ${nome.fontcolor()}.<br>`);
 
       var salario = window.prompt("Qual é o seu salario?");
       document.write(
@@ -31,6 +32,7 @@
           salario * 2
         } reais </strong> se estudar programação.`
       );
+      // ducument.write(salario.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})); não consegui fazer
     </script>
   </body>
 </html>
