@@ -1,0 +1,34 @@
+@charset "UFT-8";
+body {
+  background-color: rgb(128, 144, 231);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 10px;
+  
+}
+
+/* Para tirar os marcadores utilize as duas possibilidades abaixo
+li {
+
+  list-style-type: none;
+  display: inline-block
+  
+} */
+
+a {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+div {
+  text-align: center;
+}
