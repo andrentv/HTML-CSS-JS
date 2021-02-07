@@ -61,13 +61,14 @@ nav ul {
 }
 
 nav ul li {
-width: 100%;
+width: 52%%;
 text-align: center;
 display: inline-block;
 padding: 8px 0;
 font-size: 15pt;
 font-weight:900;
 color: #585050;
+border-radius: 10px;
 }
 
 .meio-1 {
@@ -94,6 +95,7 @@ align-items: center;
 width: 80%;
 padding: 30px;
 text-align: center;
+border-radius: 30px;
 }
 
 
@@ -162,8 +164,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 30px;
-background-color: #d6d6d6;  
-color: black;
+ color: black;
 }
 
 
@@ -176,6 +177,10 @@ margin-top: 30px;
 text-align: center;
 }
 
+#serviços img {
+height: 40%;
+width: 40%;
+}
 
 #serviços h2 {
 color: #585050;
@@ -233,6 +238,7 @@ nav ul {
 }
 nav ul li{
 font-size: 20pt;
+width: 100%;
 }
 
 .meio-1 {
@@ -362,14 +368,20 @@ max-width: 1200px;
 flex-grow: 1;
 flex-basis: 150px;
 padding: 20px 30px;
-
+border-radius: 10px;
 
 }
+
 
 
 #serviços h2 {
 width: 100%;
 text-align: center;
+}
+
+#serviços img {
+height: 50%;
+width: 50%;
 }
 
 footer {
