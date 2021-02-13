@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="custom.css">
-    <title>Modelo de Exercício</title>
+    <title>Super Contador</title>
 </head>
 
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos Contar</h1>
 
     </header>
     <section>
         <div>
-            Olá
+            Inicio: <input type="number" name="ini" id="ini">
         </div>
         <div>
-            Testatando..
-
+            Fim: <input type="number" name="fim" id="fim">
         </div>
+        <div>
+            Passo: <input type="number" name="pas" id="pas">    
+        </div>
+        <input type="button" value="Contar" onclick="contar()">
+        <div id="res">
+            Preparando a contagem...
+           
+        </div>
+
     </section>
     
-    </script>
-    <script src="/assets/instafeed.min.js"></script>
     <footer>
         <p>&copy; CursoemVideo</p>
     </footer>
