@@ -59,12 +59,13 @@ function sair() {
     function entrar() {
         d.style.opacity = '0.4'
         d.style.background = '#00c9e6'
+        
 
     }
 
     function sair() {
         d.style.opacity = '1'
-        d.style.background = 'white'
+        d.style.background = '#00c9e6'
     }
 }
 
@@ -81,7 +82,7 @@ function sair() {
 
     function sair() {
         e.style.opacity = '1'
-        e.style.background = 'white'
+        e.style.background = '#00c9e6'
     }
 }
 
@@ -98,7 +99,7 @@ function sair() {
 
     function sair() {
         f.style.opacity = '1'
-        f.style.background = 'white'
+        f.style.background = '#00c9e6'
     }
 }
 
@@ -115,7 +116,7 @@ function sair() {
 
     function sair() {
         g.style.opacity = '1'
-        g.style.background = 'white'
+        g.style.background = '#00c9e6'
     }
 }
 
@@ -132,12 +133,12 @@ function sair() {
 
     function sair() {
         h.style.opacity = '1'
-        h.style.background = 'white'
+        h.style.background = '#00c9e6'
     }
 }
 
 {
-    var i = window.document.querySelector('div.conteudo')
+    var i = window.document.querySelector('div#conteudoc')
     i.addEventListener('mouseenter', entrar)
     i.addEventListener('mouseout', sair)
 
