@@ -1,0 +1,152 @@
+@charset "UFT-8";
+
+.head {
+  height: 45px;
+  text-decoration: none;
+  font-size: 4pt;
+}
+
+.head-1 {
+padding-top: 9px;
+float: left;
+margin-left: 10px;
+}
+
+.head-1 h1 {
+  color: #a79898;
+}
+
+.head-2 {
+  padding-top: 9px;
+  float: right;
+  margin-right: 10px;
+}
+
+.btnMenu {
+    display: block;
+    background-image: url(../img/menu.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 20px 15px;
+
+}
+
+.btnMenu_open {
+    background-color: #00c9e6;
+   
+}
+
+.btnMenu_close {
+    background-color: #00c9e6; 
+}
+
+.menuul {
+margin: 0px;
+padding-left: 0px;
+width: 100%;
+position: absolute;
+transform: translatex(-100%);
+left: 0;
+transition: transform 300ms linear;
+
+/*
+top: 0;
+*/
+}
+
+.menu_open {
+    transform: translateX(0);
+  } 
+
+
+
+#vd {
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+ width: 100%;
+ text-transform: uppercase;
+ background-color: rgba(255, 255, 255, 0.800);
+/*
+  
+*/
+}
+
+.vda {
+/*width: 52%;
+text-align: center;
+display: inline-block;
+padding: 8px 0;
+border-radius: 10px;
+*/
+padding: 20px 15px;
+font-size: 10pt;
+font-weight:900;
+color: #585050;
+border-bottom: 1px solid rgba(167, 152, 152, .4);
+}
+
+nav {
+ display: flex;
+ flex-direction: column;
+ /*
+ align-items: left;
+ background-color: #00c9e6;
+ */
+}
+
+@media screen and (min-width: 768px){
+.head {
+font-size: 6pt;
+height: 60px;
+}
+.head-1 {
+margin-left: 20px;
+}
+.head-2 {
+margin-right: 20px;
+}
+
+
+.btnMenu {
+    display: none;
+    background-image: none;
+}
+
+.btnMenu_open {
+    background-color: #00c9e6;
+  
+}
+
+.btnMenu_close {
+    background-color: #00c9e6; 
+}
+
+.menuul {
+  display: none;
+}
+.menu_open {
+  transform: none;
+  } 
+
+
+nav {
+flex-direction: row;
+justify-content: space-around;
+height: 20vh;
+border-bottom: 4px solid #a79898;
+border-top: 4px solid #a79898;
+background-image: none;
+}
+
+nav ul {
+  flex-direction: row;
+  width: 80%;
+
+}
+nav ul li{
+font-size: 20pt;
+width: 100%;
+}
