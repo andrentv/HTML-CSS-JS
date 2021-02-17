@@ -174,6 +174,11 @@ font-size: 8pt! important;
 
 @media screen and (min-width: 768px){
 
+body {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
 .meio-1 {
 display: flex;
 flex-direction:row;

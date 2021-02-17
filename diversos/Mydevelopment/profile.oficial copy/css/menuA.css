@@ -172,3 +172,170 @@ padding: 12px 39px;
 border-bottom: none;
 height: 100%;
 }
+@charset "UFT-8";
+
+.head {
+  height: 45px;
+  text-decoration: none;
+  font-size: 4pt;
+}
+
+.head-1 {
+padding-top: 9px;
+float: left;
+margin-left: 10px;
+}
+
+.head-1 h1 {
+  color: #a79898;
+}
+
+.langwrap {
+  padding: 20px 0px 0px 0px;
+  float: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.langwrap h1 {
+  margin: 0;
+  padding-left: 10px;  
+}
+
+
+.btnMenu {
+    display: block;
+    background-image: url(../img/menu.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 20px 15px;
+
+}
+
+.btnMenu_open {
+    background-color: #00c9e6;
+   
+}
+
+.btnMenu_close {
+    background-color: #00c9e6; 
+}
+
+.menuul {
+margin: 0px;
+padding-left: 0px;
+width: 100%;
+position: absolute;
+transform: translatex(-100%);
+left: 0;
+transition: transform 300ms linear;
+
+/*
+top: 0;
+*/
+}
+
+.menu_open {
+    transform: translateX(0);
+  } 
+
+
+
+.vd {
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+ width: 100%;
+ text-transform: uppercase;
+ background-color: rgba(255, 255, 255, 0.800)! important;
+
+}
+
+.vda {
+padding: 20px 15px;
+font-size: 10pt;
+font-weight:900;
+color: #585050;
+border-bottom: 1px solid rgba(167, 152, 152, .4);
+}
+
+nav {
+ display: flex;
+ flex-direction: column;
+
+}
+
+@media screen and (min-width: 768px){
+  
+.head {
+font-size: 6pt;
+height: 60px;
+}
+.head-1 {
+margin-left: 20px;
+}
+.langwrap {
+margin-right: 20px;
+}
+
+
+.btnMenu {
+    display: flex;
+    background-image: none;
+}
+
+.btnMenu_open {
+  display: none;
+    background-color: #00c9e6;
+  
+}
+
+.btnMenu_close {
+  display: none;
+    background-color: #00c9e6; 
+}
+
+.menu.principal {
+flex-direction: row;
+justify-content: space-around;
+height: 18vhpx;
+border-bottom: 4px solid #a79898;
+border-top: 4px solid #a79898;
+background-color: #00c9e6;
+}
+
+.menuul {
+display: flex;
+transform: none;
+align-items: center;
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+height: 18vh;
+position: relative;
+}
+
+.menu_open {
+  transform: none;
+}
+.vd {
+display: inline-block;
+flex-direction: row;
+justify-content: space-around; 
+padding: 0px;
+align-items: center;
+font-size: 15pt;
+background-color: #00c9e6! important;
+width: auto;
+
+}
+
+.vda {
+font-size: 14pt;
+padding: 12px 39px;
+border-bottom: none;
+height: 100%;
+}

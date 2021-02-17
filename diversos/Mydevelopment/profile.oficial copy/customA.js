@@ -105,7 +105,7 @@ ee.addEventListener('mouseout', sair)
 
 }
 }
-
+/*
 {
     var d = window.document.querySelector('img#crm')
     d.addEventListener('mouseenter', entrar)
@@ -191,7 +191,7 @@ ee.addEventListener('mouseout', sair)
         h.style.background = '#00c9e6'
     }
 }
-/*
+
 {
     var i = window.document.querySelector('div.conteudoc')
     i.addEventListener('mouseenter', entrar)
