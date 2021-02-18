@@ -1,3 +1,4 @@
+//FUNCTION MENU
 const $btnMenuOpen = document.querySelector('.btnMenu_open')
 const $btnMenuClose = document.querySelector('.btnMenu_close')
 const $menuul = document.querySelector('.menuul')
@@ -10,9 +11,8 @@ $btnMenuClose.addEventListener('click', function () {
     $menuul.classList.remove('menu_open')
 })
 
-//var nome = window.alert('Seja Bem Vindo(a)!!')
 
-//FUNCTION MENU//
+//ANIMAÇÃO ITENS MENU//
 {var a = window.document.querySelector('a#vdd')
 a.addEventListener('mouseenter', entrar)
 a.addEventListener('mouseout', sair)
@@ -88,7 +88,7 @@ dd.addEventListener('mouseout', sair)
 }
 
 
-{var ee = window.document.querySelector('a#sob')
+{var ee = window.document.querySelector('a#vol')
 ee.addEventListener('mouseenter', entrar)
 ee.addEventListener('mouseout', sair)
 
@@ -105,109 +105,3 @@ ee.addEventListener('mouseout', sair)
 
 }
 }
-
-{
-    var d = window.document.querySelector('img#crm')
-    d.addEventListener('mouseenter', entrar)
-    d.addEventListener('mouseout', sair)
-
-    function entrar() {
-        d.style.opacity = '0.4'
-        d.style.background = '#00c9e6'
-        
-
-    }
-
-    function sair() {
-        d.style.opacity = '1'
-        d.style.background = '#00c9e6'
-    }
-}
-
-{
-    var e = window.document.querySelector('img#am')
-    e.addEventListener('mouseenter', entrar)
-    e.addEventListener('mouseout', sair)
-
-    function entrar() {
-        e.style.opacity = '0.4'
-        e.style.background = '#00c9e6'
-
-    }
-
-    function sair() {
-        e.style.opacity = '1'
-        e.style.background = '#00c9e6'
-    }
-}
-
-{
-    var f = window.document.querySelector('img#as')
-    f.addEventListener('mouseenter', entrar)
-    f.addEventListener('mouseout', sair)
-
-    function entrar() {
-        f.style.opacity = '0.4'
-        f.style.background = '#00c9e6'
-
-    }
-
-    function sair() {
-        f.style.opacity = '1'
-        f.style.background = '#00c9e6'
-    }
-}
-
-{
-    var g = window.document.querySelector('img#bb')
-    g.addEventListener('mouseenter', entrar)
-    g.addEventListener('mouseout', sair)
-
-    function entrar() {
-        g.style.opacity = '0.4'
-        g.style.background = '#00c9e6'
-
-    }
-
-    function sair() {
-        g.style.opacity = '1'
-        g.style.background = '#00c9e6'
-    }
-}
-
-{
-    var h = window.document.querySelector('img#ab')
-    h.addEventListener('mouseenter', entrar)
-    h.addEventListener('mouseout', sair)
-
-    function entrar() {
-        h.style.opacity = '0.4'
-        h.style.background = '#00c9e6'
-
-    }
-
-    function sair() {
-        h.style.opacity = '1'
-        h.style.background = '#00c9e6'
-    }
-}
-/*
-{
-    var i = window.document.querySelector('div.conteudoc')
-    i.addEventListener('mouseenter', entrar)
-    i.addEventListener('mouseout', sair)
-
-    function entrar() {
-        i.style.opacity = '0.4'
-        i.style.background = '#00c9e6'
-        i.style.color = 'black'
-
-    }
-
-    function sair() {
-        i.style.opacity = '1'
-        i.style.background = 'white'
-        i.style.color = '#a79898'
-    }
-}
-*/

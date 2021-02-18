@@ -6,7 +6,8 @@ body {
   color: #a79898;
 }
 
-h1 {
+h1,
+h2 {
   font-family: Asap;
   color: #a79898;
 }
@@ -144,17 +145,10 @@ footer h1 {
   color: white;
 }
 
-.lic1 p {
-  text-align: center;
-  margin: 2px auto;
-  font-size: 8pt !important;
-}
-
-/*COMPUTADOR*/
 @media screen and (min-width: 768px) {
   body {
     max-width: 1220px;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   .meio-1 {

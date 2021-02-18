@@ -1,3 +1,4 @@
+//FUNCTION MENU MOBILE
 const $btnMenuOpen = document.querySelector('.btnMenu_open')
 const $btnMenuClose = document.querySelector('.btnMenu_close')
 const $menuul = document.querySelector('.menuul')
@@ -10,9 +11,9 @@ $btnMenuClose.addEventListener('click', function () {
     $menuul.classList.remove('menu_open')
 })
 
-//var nome = window.alert('Seja Bem Vindo(a)!!')
 
-//FUNCTION MENU//
+
+//EFEITO ITENS MENU//
 {var a = window.document.querySelector('a#vdd')
 a.addEventListener('mouseenter', entrar)
 a.addEventListener('mouseout', sair)
@@ -105,7 +106,8 @@ ee.addEventListener('mouseout', sair)
 
 }
 }
-/*
+
+//EFEITO IMG AREAS DE ATUALÇÃO
 {
     var d = window.document.querySelector('img#crm')
     d.addEventListener('mouseenter', entrar)
@@ -191,23 +193,3 @@ ee.addEventListener('mouseout', sair)
         h.style.background = '#00c9e6'
     }
 }
-
-{
-    var i = window.document.querySelector('div.conteudoc')
-    i.addEventListener('mouseenter', entrar)
-    i.addEventListener('mouseout', sair)
-
-    function entrar() {
-        i.style.opacity = '0.4'
-        i.style.background = '#00c9e6'
-        i.style.color = 'black'
-
-    }
-
-    function sair() {
-        i.style.opacity = '1'
-        i.style.background = 'white'
-        i.style.color = '#a79898'
-    }
-}
-*/
