@@ -108,6 +108,25 @@ ee.addEventListener('mouseout', sair)
 }
 
 //EFEITO IMG AREAS DE ATUALÇÃO
+
+{
+    var o = window.document.querySelector('img#clo')
+    o.addEventListener('mouseenter', entrar)
+    o.addEventListener('mouseout', sair)
+
+    function entrar() {
+        o.style.opacity = '0.4'
+        o.style.background = '#00c9e6'
+        
+
+    }
+
+    function sair() {
+        o.style.opacity = '1'
+        o.style.background = '#00c9e6'
+    }
+}
+
 {
     var d = window.document.querySelector('img#crm')
     d.addEventListener('mouseenter', entrar)

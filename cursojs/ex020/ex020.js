@@ -1,5 +1,15 @@
 let musicos = ['Andre', 'Anne', 'Neiva', 'Dede', 'João', 'Maria'] 
-for()
+/*for(let dia in musicos) {
+        console.log(`O musico ${musicos[dia]} esta na posição ${dia}`)
+    }
+*/
+
+let lo = musicos.indexOf('Junior')
+if (lo == -1) {
+    console.log(`O musico não está na nossa relação de musicos`)
+} else {
+    console.log(`Pode contar com o musico ${musicos[lo]} ele é pontual`)
+}
 
 
 /*
@@ -13,8 +23,8 @@ for(let loc in a) {
     console.log(`O ${a[loc]} ficara na posição ${loc}`)
 }
 
-let loc = a.indexOf('cafe')
-let loc = a.indexOf('arroz')
+//let loc = a.indexOf('cafe')
+let loc = a.indexOf('sal')
 if (loc == -1) {
     console.log(`O ${a[loc]} acabou ele estava na posição ${loc}`)
 } else {

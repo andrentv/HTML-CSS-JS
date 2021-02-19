@@ -19,6 +19,7 @@ const ccp2E1 = document.querySelector('.conteudocp2');
 const cch23E1 = document.querySelector('.conteudoch23');
 const ccp3E1 = document.querySelector('.conteudocp3');
 const servh2E1 = document.querySelector('.serviçosh2');
+const cloE1 = document.querySelector('.clo');
 const crmpE1 = document.querySelector('.crmp');
 const amh3E1 = document.querySelector('.amh3');
 const ampE1 = document.querySelector('.amp');
@@ -56,6 +57,7 @@ link.forEach(el => {
         cch23E1.textContent = data[attr].conteudoch23;
         ccp3E1.textContent = data[attr].conteudocp3;
         servh2E1.textContent = data[attr].serviçosh2;
+        cloE1.textContent = data[attr].clo;
         crmpE1.textContent = data[attr].crmp;
         amh3E1.textContent = data[attr].amh3;
         ampE1.textContent = data[attr].amp;
@@ -88,15 +90,16 @@ var data = {
         "conteudocp2": "Demonstrar, qualificar, negociar.",
         "conteudoch23": "Venda",
         "conteudocp3": "Novos clientes, ampliação de vendas com outros produtos de linha (cross - sell e up - sell), alcançando a fidelização dos clientes.",
-        "serviçosh2": "Áreas de Atuação",
-        "crmp": "A relação com os clientes estão cada dia mais próximas, e com isso a exigência de informações e dados para rápida ação.Agilidade na resposta e gerenciamento de dados dos clientes são importantes atributos do CRM.Pensando em como seria nossas vidas sem os apps de chats que temos hoje, o CRM tem o mesmo caminho ao meu ver, difícil viver sem.",
+        "serviçosh2": "Áreas Importantes",
+        "clo": "Os principais aspectos da Computação em Nuvem são a economia e escalabilidade, isto é, manter uma infraestrutura de aplicações e de servidores físicos (on-premises), se tornam custosas, considerando equipamentos e toda despesa envolvida com suas manutenções. Ainda, a computação em nuvem oferece o crescimento escalonado de acordo com seu volume e necessidade, pagando de acordo com seu uso. Deve-se considerar também todos os demais recuros, segurança, aplicativos que são incontáveis, e as atualizações que ocorrem constantemente.",
+        "crmp": "A relação com os clientes estão cada dia mais próximas, e com isso a exigência de informações e dados para rápida ação. Agilidade na resposta e gerenciamento de dados dos clientes são importantes atributos do CRM. Pensando em como seria nossas vidas sem os apps de chats que temos hoje, o CRM tem o mesmo caminho ao meu ver, difícil viver sem.",
         "amh3": "Automação em Marketing",
-        "amp": "São tantas informações importantes e atualizações de produtos, aplicações e promoções, e queremos alcançar nosso público alvo imediatamente.Ferramentas automatizadas nestas tarefas são impressindíveis e estão à nossa disposição, como envio de emails, chatbots, sms, etc...",
+        "amp": "São tantas informações importantes e atualizações de produtos, aplicações e promoções, e queremos alcançar nosso público alvo imediatamente. Ferramentas automatizadas nestas tarefas são impressindíveis e estão à nossa disposição, como envio de emails, sms, os chatbots, etc...",
         "asp": "Você que deseja encontrar o cliente, no momento e no local certo, otimizar sua classificação nos resultados de busca, são necessárias ações SEO de maneira estratégica com palavras chaves, conteúdos e links em sua página na web e redes sociais.Fortalecer a geração de tráfego com anúncios pagos, desenvolvendo atuações nas plataformas de buscas, videos, displays, Apps e shoppping.",
         "bbp": "Temos conhecimento de reconhecidas plataformas de e-commerce e b2b que deram viabilidade e maior segurança para iniciar sua loja virtual e ou serviço de b2b de forma rápida e acessível, abaixo link para a plataforma.Também desenvolver um website moderno e interativo para apresentar seus produtos e serviços na interntet.",
         "bbl": "Acesse aqui",
         "abip": "Você conhece o seu público? Como reagem às ações que promove? Os dados nunca foram tão importantes quanto na atualidade para avaliar resultados e nas tomadas de decisões. Além da captação destes dados, qual a melhor forma de analisá-los, gráficos e dashboards ajudam na melhor visualização e compreensão destes.",
-        "fh2": "A transformação digital é uma realidade ocorrendo de forma rápida, pecisamos explorar estes serviços. O conhecimento que alcaçamos no estudo de alguns recursos tem gerado grande desejo de colocá-       los em prática.Focamos em ajudar no desenvolvimento das aplicações digitais, aumentando a eficiência, potencializando as vendas e fortalecendo o posicionamento de marca.",
+        "fh2": "A transformação digital é uma realidade ocorrendo de forma rápida, pecisamos explorar estes serviços. O conhecimento que alcaçamos no estudo de alguns recursos tem gerado grande desejo de colocá-los em prática.Focamos em ajudar no desenvolvimento das aplicações digitais, aumentando a eficiência, potencializando as vendas e fortalecendo o posicionamento de marca.",
         "fh1": "Estamos disposição, queremos conhecer o seu negócio, faça contato conosco!",
     },
     "en":
@@ -119,7 +122,8 @@ var data = {
         "conteudocp2": "Demonstrate, qualify, negotiate.",
         "conteudoch23": "Sale",
         "conteudocp3": "New customers, increased sales with other line products (cross - sell and up - sell), achieving customer loyalty.",
-        "serviçosh2": "Areas of Performance",
+        "serviçosh2": "Important Areas",
+        "clo": "The main aspects of Cloud Computing are economy and scalability, maintaining an infrastructure of applications and on-premises servers are high investment, considering equipment and all expenses involved in maintenance. In addition, cloud computing offers scalable growth in according to its volume and needs, paying as you go (usage). Also should be considered all other features, security, applications are countless and updates that occur constantly.",
         "crmp": "The relationship with customers is getting closer every day, and with that the requirement for information and data for quick action. Agility in responding and managing customer data is important CRM attributes. Thinking about how our lives would be like without the chat apps we have today, CRM has the same path in my view, difficult to live without.",
         "amh3": "Marketing Automation",
         "amp": "There is so much important information and product updates, applications and promotions, and we want to achieve our target audience immediately.Automated tools for these tasks are essential and are at our disposal disposition, how sending emails, chatbots, sms, etc ...",
