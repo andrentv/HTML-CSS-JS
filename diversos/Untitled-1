@@ -13,8 +13,21 @@ OAUTH_APPROVAL_ERROR_GENERIC : An unexpected error has occured during authentica
 
 sudo apt install firefox
 
-
+Instalar Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
 netstat -ano
+
+Instalar SFDX
+wget https://developer.salesforce.com/media/salesforce-cli/sfdx-cli/channels/stable/sfdx-cli-linux-x64.tar.xz
+mkdir sfdx
+tar xJf sfdx-cli-linux-x64.tar.xz -C sfdx --strip-components 1
+./sfdx/install
+
+Instalar Java
+sudo apt update
+java -version
+sudo apt install default-jre -y
+sudo apt install default-jdk -y
+javac -version

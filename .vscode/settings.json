@@ -30,5 +30,6 @@
         "você",
         "window",
         "é"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

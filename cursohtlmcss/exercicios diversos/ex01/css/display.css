@@ -1,0 +1,48 @@
+.example {
+    color: #fff;
+    /*text-align: center; Desta forma leva todo o elemento, com imagem e texto juntos para o alinhamento solicitado*/
+    text-align: justify;
+}
+
+.example::after {
+    content: 'abc'; /*'Esta é a forma de incluir um conteudo pelo CSS';
+    background-color: red;
+    color: black;*/
+    display: inline-block;
+    width: 100%;
+    }
+
+
+.example-item {
+    /*display: inline; Só funciona para texto não recebe width e height*/
+    /*display: block; Ele já é block, isto é para ficar declarativo;*/
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+
+}
+
+.example-item_first {
+    background-color: #faa116;
+}
+
+.example-item_second {
+    background-color: #57c7c3;
+    /*margin-left: auto; alinhar da esq para a dir */
+}
+
+.example-item_third {
+    background-color: #3B97D3;
+    /* margin-right: auto; Alinhar da dir para esq o total da largura do elemento */
+    /*margin-left: auto; Usando ambos para alinhar no centro o total da largura do elemento */
+
+}
+
+/*
+h3 {
+    text-align: right;
+    
+}
+p {
+    text-align: center;
+}*/
