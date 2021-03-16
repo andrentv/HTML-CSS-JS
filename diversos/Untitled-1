@@ -31,3 +31,38 @@ java -version
 sudo apt install default-jre -y
 sudo apt install default-jdk -y
 javac -version
+
+
+Font - VS Code
+sudo apt install fonts-firacode
+File > Preferences > Settings. > Text Editor:
+Line Height: 30
+Tab Size: 4
+Text Editor/Font: Font Family: 'Fira Code', 'monospace', 'Droid Sans Fallback'
+
+sudo apt install python3-django
+
+xinput list
+Localize AT Translated Set 2 keyboard
+Para desativar xinput float <id#>  - ex $ xinput float 10 .
+Para reativar xinput reattach <id#> <master#>  - ex $ xinput reattach 10 3 .
+
+REACT
+$ npx create-react-app my-app
+$ cd my-app
+$ npm start
+
+NEXTJS
+npx create-next-app
+manual$ npm install next react react-dom // "scripts": {   "dev": "next dev",
+
+Spotify
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+
+
+imagemagick
+sudo apt remove --purge imagemagick
+apt-cache showpkg imagemagick
+sudo dpkg --purge --force-all imagemagick
