@@ -42,11 +42,6 @@ Text Editor/Font: Font Family: 'Fira Code', 'monospace', 'Droid Sans Fallback'
 
 sudo apt install python3-django
 
-xinput list
-Localize AT Translated Set 2 keyboard
-Para desativar xinput float <id#>  - ex $ xinput float 10 .
-Para reativar xinput reattach <id#> <master#>  - ex $ xinput reattach 10 3 .
-
 REACT
 $ npx create-react-app my-app
 $ cd my-app
@@ -66,3 +61,35 @@ imagemagick
 sudo apt remove --purge imagemagick
 apt-cache showpkg imagemagick
 sudo dpkg --purge --force-all imagemagick
+
+sudo grub-probe --version
+grub-probe (GRUB) 2.04-1ubuntu26.9
+Faça uma cópia de segurança do arquivo
+sudo cp /etc/default/grub /etc/default/grub.original
+Agora abra o arquivo, com seu editor favorito:
+sudo editor /etc/default/grub
+Localize a linha
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+e substitua-a por
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash i8042.nokbd"
+Salve e feche o arquivo.
+Agora atualize o arquivo de configuração do GRUB:
+sudo update-grub
+Agora, reinicie o computador e veja se tudo deu certo.
+
+
+Programas instalados
+sudo dpkg -l
+
+Comandos Git 
+$ git clone 'nome-do-repositório'
+$ git status
+
+Adicionar um arquivo ou todos que estão no working directory
+$ git add 'arquivo'
+$ git add .
+
+Efetuar um commit
+$ git commit -m 'mensagem'
+$ git push origin 'nome do branch':'nome do branch'
+
