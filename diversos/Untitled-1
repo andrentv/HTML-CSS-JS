@@ -11,8 +11,6 @@ DE - comercial@curious-hawk-4g45fr.com
 
 OAUTH_APPROVAL_ERROR_GENERIC : An unexpected error has occured during authentication. Please try again.
 
-sudo apt install firefox
-
 Instalar Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
@@ -40,6 +38,16 @@ Line Height: 30
 Tab Size: 4
 Text Editor/Font: Font Family: 'Fira Code', 'monospace', 'Droid Sans Fallback'
 
+sudo apt install npm
+sudo apt install node
+
+PIP
+sudo add-apt-repository universe
+sudo apt update 
+sudo apt install python2
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
+
 sudo apt install python3-django
 
 REACT
@@ -56,6 +64,8 @@ curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install spotify-client
 
+firefox
+sudo apt remove --purge firefox
 
 imagemagick
 sudo apt remove --purge imagemagick
@@ -77,6 +87,8 @@ Agora atualize o arquivo de configuração do GRUB:
 sudo update-grub
 Agora, reinicie o computador e veja se tudo deu certo.
 
+Avisos do sistema parar
+sudo sed -i 's/enabled=0/enabled=1/g' /etc/default/apport
 
 Programas instalados
 sudo dpkg -l
