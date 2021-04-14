@@ -10,3 +10,4 @@ engordar(p=0){
 }
 amigo.engordar(1)
 console.log(`O ${amigo.nome} tem ${amigo.idade} anos de idade e pesa ${amigo.peso}`)
+
