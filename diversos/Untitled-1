@@ -105,3 +105,21 @@ Efetuar um commit
 $ git commit -m 'mensagem'
 $ git push origin 'nome do branch':'nome do branch'
 
+snap list
+sudo rm -rf /var/cache/snapd/
+sudo apt autoremove --purge snapd gnome-software-plugin-snap -y
+rm -fr ~/snap
+
+Passar Python3 para python / intalar Pip3 e alterar para Pip
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+sudo apt install python3-pip -y
+update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+
+Instarlar Virtualenv e Django
+pip install virtualenv
+virtualenv (nome do diretorio)
+
+cd (entar no diretorio)
+source bin/activate
+pip install django
+
