@@ -123,3 +123,21 @@ cd (entar no diretorio)
 source bin/activate
 pip install django
 
+python-django project
+django-admin startproject <nome projeto>
+python manage.py startapp <nome app>
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations main
+python manage.py shell
+python manage.py createsuperuser
+pip install django-crispy-forms
+
+
+
+
+
+
+
+
+
