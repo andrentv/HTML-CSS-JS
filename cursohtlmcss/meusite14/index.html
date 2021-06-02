@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;800;900&display=swap" rel="stylesheet"> -->
+    <title>Cores em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+        /* @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Patrick+Hand+SC&display=swap'); */
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;800;900&display=swap');
+        body {
+            /* shorthand  font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: normal 300 16px ubuntu;
+        }
+
+        h2 {
+            font: italic 800 25px inconsolata;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Representação por nome-->
+    <h2 style="background-color: blue; color:white;">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi explicabo aperiam, eligendi, sequi ipsam, quaerat
+        ducimus magni culpa adipisci iste tempora repellat animi ipsa beatae amet nulla? Quis, vitae perspiciatis.</p>
+
+    <!-- Representação por códigos Hexadecimais-->
+    <!-- Decimal: 0 1 2 3 4 5 6 7 8 9 -->
+    <!-- Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F -->
+    <h2 style="background-color: #1f1fc0; color:#ffffff;">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi explicabo aperiam, eligendi, sequi ipsam, quaerat
+        ducimus magni culpa adipisci iste tempora repellat animi ipsa beatae amet nulla? Quis, vitae perspiciatis.</p>
+
+    <!-- Representação em RGB (Red, Green, Blue)-->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb( 255, 255, 255);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi explicabo aperiam, eligendi, sequi ipsam, quaerat
+        ducimus magni culpa adipisci iste tempora repellat animi ipsa beatae amet nulla? Quis, vitae perspiciatis.</p>
+
+    <!-- Representação em hsl(hue, saturation, lightness)-->
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi explicabo aperiam, eligendi, sequi ipsam, quaerat
+        ducimus magni culpa adipisci iste tempora repellat animi ipsa beatae amet nulla? Quis, vitae perspiciatis.</p>
+
+    <!-- Representação em RGB (Red, Green, Blue)-->
+    <h2 style="background-color: rgb(255, 255, 0); color: hsl(0, 15%, 62%);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi explicabo aperiam, eligendi, sequi ipsam, quaerat
+        ducimus magni culpa adipisci iste tempora repellat animi ipsa beatae amet nulla? Quis, vitae perspiciatis.</p>
+</body>
+
+
+</html>
